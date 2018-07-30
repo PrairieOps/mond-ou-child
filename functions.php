@@ -36,7 +36,7 @@ function mond_ou_child_footer() {
     <div class="row-fluid">
         <div class="footerColumn span4">
             <div class="footerlogo"><img alt="OU" src="<?php echo get_stylesheet_directory_uri() ;?>/footerlogo.png"></div>
-            <div class="footeraddress"><a href="/">College of Architecture</a><br>Gould Hall<br>
+            <div class="footeraddress"><a href="/">Gibbs College of Architecture</a><br>Gould Hall<br>
 830 Van Vleet Oval<br>
 Norman, OK 73019<br>
 405.325.2444<br></div>       
@@ -94,7 +94,7 @@ Norman, OK 73019<br>
 <div class="text"><ul>
 <li><a target="_blank" href="https://www.facebook.com/OUCollegeofArch" class="facebook" adhocenable="false">facebook</a></li>
 <li><a target="_blank" href="https://twitter.com/OUCollegeofArch" class="twitter" adhocenable="false">twitter</a></li>
-<li><a target="_blank" href="http://www.linkedin.com/groups/OU-College-Architecture-Alumni-Friends-4123860?gid=4123860&amp;trk=hb_side_g" class="linkedin" adhocenable="false">linkedin</a></li>
+<li><a target="_blank" href="https://www.instagram.com/oucollegeofarchitecture/" class="instagram" adhocenable="false">instagram</a></li>
 <li><a href="http://www.ou.edu/web/socialmediadirectory" class="more">more</a></li>
 </ul>
 </div>
@@ -127,7 +127,7 @@ Norman, OK 73019<br>
 
             Updated
 <?php the_modified_date();?>
- by <a href="/">College of Architecture</a>: <a href="mailto:coa-communications@ou.edu ">coa-communications@ou.edu </a>
+ by <a href="/">Gibbs College of Architecture</a>: <a href="mailto:coa-communications@ou.edu ">coa-communications@ou.edu </a>
         </div>
     </div>
 
