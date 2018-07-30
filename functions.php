@@ -1,6 +1,6 @@
 <?php
 add_action( 'wp_enqueue_scripts', 'mond_ou_child_enqueue_styles' );
-add_action( 'tha_header_after', 'mond_ou_child_head', 1001 );
+add_action( 'tha_head_top', 'mond_ou_child_head', 1001 );
 //add_action( 'wp_footer', 'mond_ou_child_footer', 1001 );
 add_action( 'tha_content_after', 'mond_ou_child_footer', 1001 );
 
