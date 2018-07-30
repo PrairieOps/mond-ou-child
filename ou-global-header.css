@@ -60,13 +60,14 @@ body { padding:0; margin:0; }
 .globalheader ul li a.social:hover { background-position:-60px -30px; }
 .globalheader ul li a:hover { background-color:#e8e8e8; }
 .globalheader ul li.wordmark {
-    text-indent:-99999px;
-    width:200px;
-    height:30px;
-    margin-left:1em;
-    background-image:url(ou-globalheader-wordmark.png);
-    background-repeat:no-repeat;
-    background-position:center center;
+	text-indent: -99999px;
+	width: 200px;
+	height: 30px;
+	margin-left: 5px;
+	background-image: url(ou-wordmark.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
 }
 
 a.tip { position:relative; }
