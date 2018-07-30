@@ -59,14 +59,14 @@ Norman, OK 73019<br>
 
 
 <div class="text"><ul class="2columns unstyled"><div class="first column" style="width:50%; float: left;">
-<li><a href="http://www.ou.edu//publicaffairs/WebPolicies/accessstatement">Accessibility</a></li>
-<li><a href="http://www.ou.edu//sustainability">Sustainability</a></li>
+<li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement">Accessibility</a></li>
+<li><a href="http://www.ou.edu/sustainability">Sustainability</a></li>
 <li><a href="http://ouhsc.edu/hipaa/">HIPAA</a></li>
 <li><a href="http://hr.ou.edu/jobs/">OU Job Search</a></li></div><div class="last column" style="width:50%; float: left;">
-<li><a href="http://www.ou.edu//web/landing/policy">Policies</a></li>
-<li><a href="http://www.ou.edu//web/landing/legalnotices">Legal Notices</a></li>
-<li><a href="http://www.ou.edu//publicaffairs/WebPolicies/copyright">Copyright</a></li>
-<li><a href="http://www.ou.edu//web/resources_offices">Resources &amp; Offices</a></li>
+<li><a href="http://www.ou.edu/web/landing/policy">Policies</a></li>
+<li><a href="http://www.ou.edu/web/landing/legalnotices">Legal Notices</a></li>
+<li><a href="http://www.ou.edu/publicaffairs/WebPolicies/copyright">Copyright</a></li>
+<li><a href="http://www.ou.edu/web/resources_offices">Resources &amp; Offices</a></li>
 </div><br style="clear:both;"></ul>
 </div>
 
