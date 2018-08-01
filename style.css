@@ -12,7 +12,8 @@
 */
 
 body{
-  background-color:#fff;
+  background-image:url(bg_black.gif);
+  background-repeat:repeat;
 }
 
 .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner .vc_icon_element-icon {
@@ -36,10 +37,9 @@ div.row-fluid:nth-child(2) {
 }
 
 #page {
-    background-image:url(bg_black.gif);
-    background-repeat:repeat;
-    overflow-y: hidden;
-    overflow-x: hidden;
+  background-color:#fff;
+  overflow-y: visible;
+  overflow-x: visible;
 }
 
 #social_media_header {
