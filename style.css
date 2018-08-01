@@ -37,9 +37,9 @@ div.row-fluid:nth-child(2) {
 
 #page {
     background-image:url(bg_black.gif);
-    background-repeat:repeat;   
-    color:#ffffff;
-    box-sizing: unset;
+    background-repeat:repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #social_media_header {
