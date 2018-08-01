@@ -42,6 +42,10 @@ div.row-fluid:nth-child(2) {
   overflow-x: visible;
 }
 
+a#scroll-to-top {
+  background: none;
+}
+
 #social_media_header {
     font-family: "Roboto", Geneva, Tahoma, Verdana, sans-serif;
     color: #ffffff;
