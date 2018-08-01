@@ -39,6 +39,7 @@ div.row-fluid:nth-child(2) {
     background-image:url(bg_black.gif);
     background-repeat:repeat;   
     color:#ffffff;
+    box-sizing: unset;
 }
 
 #social_media_header {
