@@ -58,11 +58,11 @@ Norman, OK 73019<br>
 
 
 
-<div class="text"><ul class="2columns unstyled"><div class="first column" style="width:50%; float: left;">
+<div class="text"><ul class="2columns unstyled"><div class="first column" style="width:50%; min-width: 8em; float: left;">
 <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement">Accessibility</a></li>
 <li><a href="http://www.ou.edu/sustainability">Sustainability</a></li>
 <li><a href="http://ouhsc.edu/hipaa/">HIPAA</a></li>
-<li><a href="http://hr.ou.edu/jobs/">OU Job Search</a></li></div><div class="last column" style="width:50%; float: left;">
+<li><a href="http://hr.ou.edu/jobs/">OU Job Search</a></li></div><div class="last column" style="width:50%; min-width: 8em; float: left;">
 <li><a href="http://www.ou.edu/web/landing/policy">Policies</a></li>
 <li><a href="http://www.ou.edu/web/landing/legalnotices">Legal Notices</a></li>
 <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/copyright">Copyright</a></li>
@@ -74,27 +74,15 @@ Norman, OK 73019<br>
 
         </div>
         <div class="footerColumn span4">
-            <div class="parbase text col3">
+            <div class="parbase text">
 
 
-<div id="footer_social_icons">      
-
-
-
-
-
-<h3>COA Social Media</h3>
-
-
-
-
-
-
-
-<div class="text"><ul>
-<li><a target="_blank" href="https://www.facebook.com/OUCollegeofArch" class="facebook" adhocenable="false">facebook</a></li>
-<li><a target="_blank" href="https://twitter.com/OUCollegeofArch" class="twitter" adhocenable="false">twitter</a></li>
-<li><a target="_blank" href="https://www.instagram.com/oucollegeofarchitecture/" class="instagram" adhocenable="false">instagram</a></li>
+<div class="text"><ul class="unstyled">
+<li><h3 id="social_media_header">COA Social Media</h3></li>
+<li><a target="_blank" href="https://www.facebook.com/OUCollegeofArch">facebook</a></li>
+<li><a target="_blank" href="https://twitter.com/OUCollegeofArch">twitter</a></li>
+<li><a target="_blank" href="https://www.instagram.com/oucollegeofarchitecture/">instagram</a></li>
+<li><a target="_blank" href="https://www.youtube.com/channel/UCNJx8bZbPcQLAem1oOE-Xaw/featured">youtube</a></li>
 <li><a href="http://www.ou.edu/web/socialmediadirectory" class="more">more</a></li>
 </ul>
 </div>
