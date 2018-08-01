@@ -78,12 +78,10 @@ Norman, OK 73019<br>
 
 
 <div class="text"><ul class="unstyled">
-<li><h3 id="social_media_header">COA Social Media</h3></li>
-<li><a target="_blank" href="https://www.facebook.com/OUCollegeofArch">facebook</a></li>
-<li><a target="_blank" href="https://twitter.com/OUCollegeofArch">twitter</a></li>
-<li><a target="_blank" href="https://www.instagram.com/oucollegeofarchitecture/">instagram</a></li>
-<li><a target="_blank" href="https://www.youtube.com/channel/UCNJx8bZbPcQLAem1oOE-Xaw/featured">youtube</a></li>
-<li><a href="http://www.ou.edu/web/socialmediadirectory" class="more">more</a></li>
+<li><a target="_blank" href="https://www.facebook.com/OUCollegeofArch">Facebook</a></li>
+<li><a target="_blank" href="https://twitter.com/OUCollegeofArch">Twitter</a></li>
+<li><a target="_blank" href="https://www.instagram.com/oucollegeofarchitecture/">Instagram</a></li>
+<li><a target="_blank" href="https://www.youtube.com/channel/UCNJx8bZbPcQLAem1oOE-Xaw/featured">YouTube</a></li>
 </ul>
 </div>
 </div>
@@ -116,6 +114,7 @@ Norman, OK 73019<br>
             Updated
 <?php the_modified_date();?>
  by <a href="/">Gibbs College of Architecture</a>: <a href="mailto:coa-communications@ou.edu ">coa-communications@ou.edu </a>
+<strong style="float:right">Home of the American School of Design</strong>
         </div>
     </div>
 
