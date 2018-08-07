@@ -27,6 +27,7 @@ footer div.page-bottom-footer.style-2 div.footer-container div.container div.row
 
 .page-logo {
   margin-left: 1em;
+  max-width: 75%;
 }
 
 ul.unstyled, ol.unstyled {
