@@ -16,6 +16,11 @@ body, footer div.page-bottom-footer.style-2 {
   background-repeat:repeat;
 }
 
+footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside.widget.widget_custom_html div.textwidget.custom-html-widget div.footerBottom {
+  border-top:1px solid #474747;
+  padding-top:10px;
+}
+
 .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner .vc_icon_element-icon {
   margin:-250px 0px;
 }
@@ -63,17 +68,25 @@ footer div.decoration-top-footer {
 
 footer div.page-bottom-footer.style-2 div.footer-container {
   background-color: unset;
+  padding-top: 1em;
 }
 
-footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside.widget.widget_custom_html
-{
+footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside.widget.widget_custom_html {
   display: inline-block;
-  text-align: left;
-  float: left;
+  text-align: left !important;
+  vertical-align: top;
+  float:left;
 }
-footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center:nth-child(1) {
+
+footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside:first-child {
   background-image: url(footerlogo.png);
   background-repeat: no-repeat;
+  background-attachment: local;
+  padding-right: 5em;
+}
+
+footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside:last-child {
+  width: 100%;
 }
 /* FOOTER
  * Cribbed from:
@@ -115,7 +128,6 @@ footer div.page-bottom-footer.style-2 div.footer-container div.container div.row
     color:#999999 !important;
     text-decoration:none !important;
 }
-.footer .footerBottom { border-top:1px solid #474747; padding-top:10px; }
 
 /* social icons */
 
