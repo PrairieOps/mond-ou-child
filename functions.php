@@ -1,7 +1,8 @@
 <?php
 add_action( 'wp_enqueue_scripts', 'mond_ou_child_enqueue_styles' );
-add_action( 'tha_head_top', 'mond_ou_child_head', 1001 );
-add_action( 'wp_footer', 'mond_ou_child_footer', 1001 );
+add_action( 'tha_head_top', 'mond_ou_child_head' );
+add_shortcode('the-modified-date', 'mond_ou_child_the_modified_date_shortcode');
+add_filter('widget_text', 'mond_ou_child_shortcode_filter');
 
 function mond_ou_child_enqueue_styles() {
     wp_enqueue_style( 'mond-ou-child-style', get_stylesheet_directory_uri() . '/style.css' );
@@ -24,12 +25,15 @@ function mond_ou_child_head() {
 <?php
 }
 
-function mond_ou_child_footer() {
-?>
-Updated
-<?php the_modified_date();?>
- by <a href="/">Gibbs College of Architecture</a>: <a href="mailto:coa-communications@ou.edu ">coa-communications@ou.edu </a>
-<strong style="float:right">Home of the American School of Design</strong>
-<?php
+function mond_ou_child_the_modified_date_shortcode() {
+  global $wp_query;
+  $page_id = $wp_query->post->ID;
+  $date = get_the_modified_date('', $page_id);
+  return (string)$date;
 }
+
+function mond_ou_child_shortcode_filter( $content ) {
+  return do_shortcode($content);
+}
+
 ?>
