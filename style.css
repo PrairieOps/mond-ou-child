@@ -11,6 +11,11 @@
  Text Domain:  mond-ou-child
 */
 
+
+div.globalheader div.globalheader-wrapper ul li a {
+  z-index: 1000;
+}
+
 body, footer div.page-bottom-footer.style-2 {
   background-image:url(bg_black.gif);
   background-repeat:repeat;
