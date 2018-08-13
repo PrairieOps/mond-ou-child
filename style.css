@@ -5,7 +5,7 @@
  Author:       PrairieOps
  Author URI:   https://prairieops.io
  Template:     mond
- Version:      0.0.12
+ Version:      0.0.13
  License:      Proprietary; subject to OU Public Affairs Web Policy
  License URI:  https://www.ou.edu/publicaffairs/webpolicies
  Text Domain:  mond-ou-child
@@ -21,7 +21,6 @@ header.page-header div.page-header-inner {
 
 header.page-header div.page-header-inner div.page-header-right {
   background: white;
-  z-index: -2;
 }
 
 div.page-header-inner {
@@ -52,7 +51,8 @@ footer div.page-bottom-footer.style-2 div.footer-container div.container div.row
 
 .page-logo {
   margin-left: 1em;
-  max-width: 75%;
+  max-width: 66%;
+  z-index: 1;
 }
 
 ul.unstyled, ol.unstyled {
