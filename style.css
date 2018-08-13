@@ -5,12 +5,16 @@
  Author:       PrairieOps
  Author URI:   https://prairieops.io
  Template:     mond
- Version:      0.0.8
+ Version:      0.0.9
  License:      Proprietary; subject to OU Public Affairs Web Policy
  License URI:  https://www.ou.edu/publicaffairs/webpolicies
  Text Domain:  mond-ou-child
 */
 
+
+header#page-header {
+  position: absolute !important;
+}
 
 div.globalheader div.globalheader-wrapper ul li a {
   z-index: 1000;
