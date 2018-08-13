@@ -98,3 +98,37 @@ html {
     position: relative;
     min-height: 100%;
 }
+
+@media (max-width:58.75em) {
+  /* Make responsive breaks in footer behave more like ou.edu proper.  */
+
+  footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside:first-child {
+    background-image: url(footerlogo.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center top;
+    padding-right: 0;
+    padding-top: 7em;
+  }
+
+  footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside.widget.widget_custom_html:not(:last-of-type) div.textwidget.custom-html-widget {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center !important;
+  }
+
+  footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside.widget.widget_custom_html:last-of-type div.textwidget.custom-html-widget {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center !important;
+    float: unset !important;
+  }
+
+  footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center aside.widget.widget_custom_html div.textwidget.custom-html-widget ul {
+    padding: 0;
+  }
+
+  footer div.page-bottom-footer.style-2 div.footer-container div.container div.row.row-md-center div.col-md-12.align-center > * {
+    width: 100% !important;
+  }
+}
