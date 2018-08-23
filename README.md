@@ -7,7 +7,8 @@ Mond Child WordPress Theme for OU Gibbs College of Architecture
 
 
 # License
-[Proprietary](LICENSE)
+[Proprietary](LICENSE); subject to [OU Public Affairs Web Policy](https://www.ou.edu/publicaffairs/webpolicies).
+
 
 # Author
 Prepared by [PrairieOps](https://github.com/PrairieOps) for [OU Gibbs College of Architecture](https://architecture.ou.edu).
